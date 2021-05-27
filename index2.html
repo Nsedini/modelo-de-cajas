@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style media="screen" type="text/css">
+    html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .square {
+        height: 200px;
+        width: 200px;
+        position: relative;
+    }
+
+    .square__red {
+        background-color: rgba(255, 0, 0, .5);
+        z-index: 2;
+        left: 50px;
+        top: 20px;
+        
+    }
+
+    .square__green {
+        background-color: rgba(0, 255, 0, .5);
+        left: 80px;
+        top: -140px;
+        z-index: 1;
+    }
+
+    .square__blue {
+        background-color: rgba(0, 0, 255, .5);
+        left: 110px;
+        top: -300px;
+    }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="square square__red"></div>
+        <div class="square square__green"></div>
+        <div class="square square__blue"></div>
+    </section>
+    
+</body>
+</html>
